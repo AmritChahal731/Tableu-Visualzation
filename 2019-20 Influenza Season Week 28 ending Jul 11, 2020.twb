@@ -1,0 +1,561 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20202.20.0614.2338                               -->
+<workbook original-version='18.1' source-build='2020.2.2 (20202.20.0614.2338)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='StateDatabyWeekforMap_2019-20week44-46' inline='true' name='federated.1wtmyyh1ikqtj31dp8zn70trqyqu' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='StateDatabyWeekforMap_2019-20week44-46' name='textscan.0qtwiw516do4m21dssl7s0nm0fvb'>
+            <connection class='textscan' directory='C:/Users/amich/Downloads' filename='StateDatabyWeekforMap_2019-20week44-46.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0qtwiw516do4m21dssl7s0nm0fvb' name='StateDatabyWeekforMap_2019-20week44-46.csv' table='[StateDatabyWeekforMap_2019-20week44-46#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='string' name='STATENAME' ordinal='0' />
+            <column datatype='string' name='URL' ordinal='1' />
+            <column datatype='string' name='WEBSITE' ordinal='2' />
+            <column datatype='string' name='ACTIVITY LEVEL' ordinal='3' />
+            <column datatype='string' name='ACTIVITY LEVEL LABEL' ordinal='4' />
+            <column datatype='date' name='WEEKEND' ordinal='5' />
+            <column datatype='integer' name='WEEK' ordinal='6' />
+            <column datatype='string' name='SEASON' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0qtwiw516do4m21dssl7s0nm0fvb' name='StateDatabyWeekforMap_2019-20week44-46.csv' table='[StateDatabyWeekforMap_2019-20week44-46#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='string' name='STATENAME' ordinal='0' />
+            <column datatype='string' name='URL' ordinal='1' />
+            <column datatype='string' name='WEBSITE' ordinal='2' />
+            <column datatype='string' name='ACTIVITY LEVEL' ordinal='3' />
+            <column datatype='string' name='ACTIVITY LEVEL LABEL' ordinal='4' />
+            <column datatype='date' name='WEEKEND' ordinal='5' />
+            <column datatype='integer' name='WEEK' ordinal='6' />
+            <column datatype='string' name='SEASON' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[StateDatabyWeekforMap_2019-20week44-46.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_CA&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STATENAME</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[STATENAME]</local-name>
+            <parent-name>[StateDatabyWeekforMap_2019-20week44-46.csv]</parent-name>
+            <remote-alias>STATENAME</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[StateDatabyWeekforMap_2019-20week44-46.csv_8F3CEBAF8CD243B286C32AD3991B1FCD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>URL</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[URL]</local-name>
+            <parent-name>[StateDatabyWeekforMap_2019-20week44-46.csv]</parent-name>
+            <remote-alias>URL</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[StateDatabyWeekforMap_2019-20week44-46.csv_8F3CEBAF8CD243B286C32AD3991B1FCD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WEBSITE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[WEBSITE]</local-name>
+            <parent-name>[StateDatabyWeekforMap_2019-20week44-46.csv]</parent-name>
+            <remote-alias>WEBSITE</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[StateDatabyWeekforMap_2019-20week44-46.csv_8F3CEBAF8CD243B286C32AD3991B1FCD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ACTIVITY LEVEL</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ACTIVITY LEVEL]</local-name>
+            <parent-name>[StateDatabyWeekforMap_2019-20week44-46.csv]</parent-name>
+            <remote-alias>ACTIVITY LEVEL</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[StateDatabyWeekforMap_2019-20week44-46.csv_8F3CEBAF8CD243B286C32AD3991B1FCD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ACTIVITY LEVEL LABEL</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ACTIVITY LEVEL LABEL]</local-name>
+            <parent-name>[StateDatabyWeekforMap_2019-20week44-46.csv]</parent-name>
+            <remote-alias>ACTIVITY LEVEL LABEL</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[StateDatabyWeekforMap_2019-20week44-46.csv_8F3CEBAF8CD243B286C32AD3991B1FCD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WEEKEND</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[WEEKEND]</local-name>
+            <parent-name>[StateDatabyWeekforMap_2019-20week44-46.csv]</parent-name>
+            <remote-alias>WEEKEND</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[StateDatabyWeekforMap_2019-20week44-46.csv_8F3CEBAF8CD243B286C32AD3991B1FCD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WEEK</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[WEEK]</local-name>
+            <parent-name>[StateDatabyWeekforMap_2019-20week44-46.csv]</parent-name>
+            <remote-alias>WEEK</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[StateDatabyWeekforMap_2019-20week44-46.csv_8F3CEBAF8CD243B286C32AD3991B1FCD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SEASON</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SEASON]</local-name>
+            <parent-name>[StateDatabyWeekforMap_2019-20week44-46.csv]</parent-name>
+            <remote-alias>SEASON</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[StateDatabyWeekforMap_2019-20week44-46.csv_8F3CEBAF8CD243B286C32AD3991B1FCD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column aggregation='CountD' datatype='string' default-role='measure' default-type='quantitative' name='[ACTIVITY LEVEL LABEL]' role='dimension' type='nominal' />
+      <column aggregation='CountD' datatype='string' default-role='measure' default-type='quantitative' name='[ACTIVITY LEVEL]' role='dimension' type='nominal' />
+      <column datatype='string' name='[STATENAME]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+        <semantic-values semantic-role='[State].[Name]'>
+          <semantic-value key='&quot;Commonwealth of the Northern Mariana Islands&quot;' value='&quot;Northern Mariana Islands&quot;' />
+          <semantic-value key='&quot;New York City&quot;' value='&quot;New York&quot;' />
+        </semantic-values>
+      </column>
+      <column datatype='integer' name='[WEEK]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='StateDatabyWeekforMap_2019-20week44-46.csv' datatype='table' name='[__tableau_internal_object_id__].[StateDatabyWeekforMap_2019-20week44-46.csv_8F3CEBAF8CD243B286C32AD3991B1FCD]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+        <semantic-value key='[State].[Name]' value='%null%' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='StateDatabyWeekforMap_2019-20week44-46.csv' id='StateDatabyWeekforMap_2019-20week44-46.csv_8F3CEBAF8CD243B286C32AD3991B1FCD'>
+            <properties context=''>
+              <relation connection='textscan.0qtwiw516do4m21dssl7s0nm0fvb' name='StateDatabyWeekforMap_2019-20week44-46.csv' table='[StateDatabyWeekforMap_2019-20week44-46#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                  <column datatype='string' name='STATENAME' ordinal='0' />
+                  <column datatype='string' name='URL' ordinal='1' />
+                  <column datatype='string' name='WEBSITE' ordinal='2' />
+                  <column datatype='string' name='ACTIVITY LEVEL' ordinal='3' />
+                  <column datatype='string' name='ACTIVITY LEVEL LABEL' ordinal='4' />
+                  <column datatype='date' name='WEEKEND' ordinal='5' />
+                  <column datatype='integer' name='WEEK' ordinal='6' />
+                  <column datatype='string' name='SEASON' ordinal='7' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{1A434FAD-A358-469F-AF7C-44C6CF660A59}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='StateDatabyWeekforMap_2019-20week44-46' name='federated.1wtmyyh1ikqtj31dp8zn70trqyqu' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1wtmyyh1ikqtj31dp8zn70trqyqu'>
+            <column aggregation='CountD' datatype='string' default-role='measure' default-type='quantitative' name='[ACTIVITY LEVEL LABEL]' role='dimension' type='nominal' />
+            <column aggregation='CountD' datatype='string' default-role='measure' default-type='quantitative' name='[ACTIVITY LEVEL]' role='dimension' type='nominal' />
+            <column datatype='string' name='[STATENAME]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+              <semantic-values semantic-role='[State].[Name]'>
+                <semantic-value key='&quot;Commonwealth of the Northern Mariana Islands&quot;' value='&quot;Northern Mariana Islands&quot;' />
+                <semantic-value key='&quot;New York City&quot;' value='&quot;New York&quot;' />
+              </semantic-values>
+            </column>
+            <column-instance column='[ACTIVITY LEVEL LABEL]' derivation='CountD' name='[ctd:ACTIVITY LEVEL LABEL:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[ACTIVITY LEVEL]' derivation='CountD' name='[ctd:ACTIVITY LEVEL:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[STATENAME]' derivation='None' name='[none:STATENAME:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.1wtmyyh1ikqtj31dp8zn70trqyqu].[Latitude (generated)]' included-values='in-range' />
+          <filter class='quantitative' column='[federated.1wtmyyh1ikqtj31dp8zn70trqyqu].[ctd:ACTIVITY LEVEL LABEL:qk]' included-values='in-range' />
+          <filter class='quantitative' column='[federated.1wtmyyh1ikqtj31dp8zn70trqyqu].[ctd:ACTIVITY LEVEL:qk]' included-values='all' />
+          <slices>
+            <column>[federated.1wtmyyh1ikqtj31dp8zn70trqyqu].[ctd:ACTIVITY LEVEL:qk]</column>
+            <column>[federated.1wtmyyh1ikqtj31dp8zn70trqyqu].[ctd:ACTIVITY LEVEL LABEL:qk]</column>
+            <column>[federated.1wtmyyh1ikqtj31dp8zn70trqyqu].[Latitude (generated)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1wtmyyh1ikqtj31dp8zn70trqyqu].[Longitude (generated)]' field-type='quantitative' max='32302641.523861717' min='17561712.349714585' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1wtmyyh1ikqtj31dp8zn70trqyqu].[Latitude (generated)]' field-type='quantitative' max='9649183.666575782' min='1142704.2336374379' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1wtmyyh1ikqtj31dp8zn70trqyqu].[ctd:ACTIVITY LEVEL:qk]' palette='green_gold_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='legend'>
+            <format attr='border-style' value='dashed' />
+          </style-rule>
+          <style-rule element='legend-title'>
+            <format attr='text-align' value='center' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1wtmyyh1ikqtj31dp8zn70trqyqu].[ctd:ACTIVITY LEVEL:qk]' />
+              <lod column='[federated.1wtmyyh1ikqtj31dp8zn70trqyqu].[none:STATENAME:nk]' />
+              <lod column='[federated.1wtmyyh1ikqtj31dp8zn70trqyqu].[ctd:ACTIVITY LEVEL LABEL:qk]' />
+              <geometry column='[federated.1wtmyyh1ikqtj31dp8zn70trqyqu].[Geometry (generated)]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1wtmyyh1ikqtj31dp8zn70trqyqu].[Latitude (generated)]</rows>
+        <cols>[federated.1wtmyyh1ikqtj31dp8zn70trqyqu].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{B96A6A5A-92F3-475B-9265-72005BD811E2}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{621038FF-0D45-4B55-8AE9-35D070FE194B}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.1wtmyyh1ikqtj31dp8zn70trqyqu].[Latitude (generated)]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card param='[federated.1wtmyyh1ikqtj31dp8zn70trqyqu].[ctd:ACTIVITY LEVEL LABEL:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card param='[federated.1wtmyyh1ikqtj31dp8zn70trqyqu].[ctd:ACTIVITY LEVEL:qk]' show-domain='false' show-morefewerbutton='true' show-null-ctrls='false' type='filter' values='relevant' />
+            <card pane-specification-id='0' param='[federated.1wtmyyh1ikqtj31dp8zn70trqyqu].[ctd:ACTIVITY LEVEL:qk]' type='color' />
+            <card param='[federated.1wtmyyh1ikqtj31dp8zn70trqyqu].[none:STATENAME:nk]' type='highlighter' />
+            <card AVG='true' KURTOSIS='false' MAX='true' MEDIAN='true' MIN='true' QUART1='false' QUART3='false' SKEWNESS='false' STDEV='false' SUM='true' type='summary' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1wtmyyh1ikqtj31dp8zn70trqyqu].[none:ACTIVITY LEVEL LABEL:nk]</field>
+            <field>[federated.1wtmyyh1ikqtj31dp8zn70trqyqu].[none:STATENAME:nk]</field>
+          </color-one-way>
+        </highlight>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{A16194E2-44B5-4E27-89C8-06905F4209AD}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      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
+      /wH8aqwAimBD7gAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
